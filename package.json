@@ -1,6 +1,6 @@
 {
   "name": "react-vr-component",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "react-vr-component React component",
   "main": "lib/index.js",
   "module": "es/index.js",
