@@ -16,6 +16,8 @@
 
 ## Usage
 
+Must be used in conjunction with: TODO add other repo link here
+
 ### Props
 
 * reactVRWindowName: e.g. window.ReactVR. defaults to "ReactVR"
