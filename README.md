@@ -14,3 +14,28 @@ Describe react-vr-component here.
 
 [coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
 [coveralls]: https://coveralls.io/github/user/repo
+
+
+## Usage
+
+### Props
+
+* reactVRWindowName: e.g. window.ReactVR. defaults to "ReactVR"
+* clientBundlePath: path to load client.bundle.js; loaded asynchronously and added as script.
+* indexBundlePath: path to load index.bundle.js; passed to ReactVR.init.
+* assetRootPath: root path for assets to load; passed to ReactVR.init.
+* any other props will be passed down to the react-vr component loaded
+
+### Example 
+
+```
+<ReactVR 
+  reactVRWindowName={'ReactVR'}
+  clientBundlePath={'/vr/client.bundle.js?platform=vr'}
+  indexBundlePath={'vr/index.bundle.js?platform=vr&devtools'}
+  assetRootPath={'/vr/static_assets/'}
+  somePropName={this.state.something} 
+  user={this.props.user} 
+  camera={this.state.camera}
+/>
+```
