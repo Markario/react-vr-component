@@ -1,6 +1,6 @@
 {
   "name": "rvc-client",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "VR Client for React-VR-Component library",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -20,12 +20,18 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "react": "15.x"
+    "react": "~15.4.1",
+    "react-native": "^0.42.0",
+    "react-vr": "^1.4.0",
+    "react-vr-web": "^1.4.0"
   },
   "devDependencies": {
     "nwb": "0.18.x",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react": "~15.4.1",
+    "react-dom": "~15.4.1",
+    "react-native": "^0.42.0",
+    "react-vr": "^1.4.0",
+    "react-vr-web": "^1.4.0"
   },
   "author": "",
   "homepage": "",
