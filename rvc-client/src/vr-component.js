@@ -1,5 +1,6 @@
 import React from 'react';
-import RCTDeviceEventEmitter  from 'RCTDeviceEventEmitter'
+import Native from 'react-native';
+const { RCTDeviceEventEmitter } = Native;
 
 export default class VRComponent extends React.Component {
 	constructor(props){
